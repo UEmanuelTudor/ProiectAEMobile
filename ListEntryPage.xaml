@@ -5,7 +5,7 @@
              Title="ListEntryPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Add Programari List"
- Clicked="OnProgramariListAddedClicked" />
+ Clicked="OnShopListAddedClicked" />
     </ContentPage.ToolbarItems>
     <ListView x:Name="listView"
  Margin="20"
