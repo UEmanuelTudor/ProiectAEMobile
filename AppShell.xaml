@@ -8,12 +8,16 @@
 
     <TabBar>
         <ShellContent
- Title="Lista Programari"
+ Title="Home"
  ContentTemplate="{DataTemplate local:MainPage}"
  />
         <ShellContent
  Title="Despre"
  ContentTemplate="{DataTemplate local:DesprePage}"
+ />
+        <ShellContent
+ Title="Programarile mele"
+ ContentTemplate="{DataTemplate local:ListEntryPage}"
  />
     </TabBar>
 </Shell>
